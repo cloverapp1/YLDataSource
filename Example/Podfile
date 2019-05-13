@@ -1,0 +1,14 @@
+use_frameworks!
+inhibit_all_warnings!
+
+platform :ios, '8.0'
+
+target 'YLDataSource_Example' do
+  pod 'YLDataSource', :path => '../'
+  pod 'DZNEmptyDataSet'
+  target 'YLDataSource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

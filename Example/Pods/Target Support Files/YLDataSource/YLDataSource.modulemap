@@ -1,0 +1,6 @@
+framework module YLDataSource {
+  umbrella header "YLDataSource-umbrella.h"
+
+  export *
+  module * { export * }
+}

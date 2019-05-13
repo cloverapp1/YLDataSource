@@ -1,0 +1,24 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - YLDataSource (0.1.0):
+    - DZNEmptyDataSet (~> 1.8.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - YLDataSource (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+
+EXTERNAL SOURCES:
+  YLDataSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  YLDataSource: a96c2d197243deabe3ac3fce36a349f6c58bb143
+
+PODFILE CHECKSUM: 36402479bc1747fa6e3647c21862c556488b734e
+
+COCOAPODS: 1.6.1
